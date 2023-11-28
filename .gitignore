@@ -255,6 +255,11 @@ web_modules/
 .env.local
 webbscraper/output.json
 
+ai/rawData/*
+ai/trainingData/*
+ai/indexes/*
+ai/flagged/*
+
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 .parcel-cache

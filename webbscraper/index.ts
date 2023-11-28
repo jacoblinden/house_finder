@@ -69,5 +69,9 @@ async function goAndScrape(link: string) {
         await browser.close();
         return `{${houseData} },`
     }
+
+
+
+    
 }
 

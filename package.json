@@ -2,7 +2,10 @@
     "name": "mono",
     "type": "module",
     "scripts": {
-      "scrape": "npm --prefix webbscraper  run start"
+      "install:scrapper" : "npm install --prefix webbscraper",
+      "scrape": "npm --prefix webbscraper  run start",
+      "ai": "python3 ./ai/ai.py",
+      "structure": "python3 ./ai/prepareData.py"
     },
     "dependencies": {
       "axios": "^1.5.0",
