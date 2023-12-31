@@ -1,12 +1,11 @@
 {
-    "name": "mono",
-    "type": "module",
-    "scripts": {
-      "scrape:install" : "yarn --cwd webbscraper",
-      "scrape:hemnet": "yarn --cwd webbscraper  run polisen",
-      "scrape:polisen": "yarn --cwd  webbscraper  run hemnet",
-      "ai": "cd ai  && python3 main.py",
-      "structure": "cd ai/services && python3 prepareData.py"
-    }
+  "name": "mono",
+  "type": "module",
+  "scripts": {
+    "scrape:install": "yarn --cwd webbscraper",
+    "scrape:hemnet": "yarn --cwd webbscraper  run polisen",
+    "scrape:polisen": "yarn --cwd  webbscraper  run hemnet",
+    "ai": "cd ai  && python3 main.py",
+    "structure": "cd ai/services && python3 prepareData.py"
   }
-  
+}
