@@ -14,4 +14,5 @@ dist/
 build/
 data/flagged/*
 data/indexes/*
-data/proccesed/*
+data/proccesed/*                
+samconfig.toml

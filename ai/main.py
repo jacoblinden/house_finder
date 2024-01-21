@@ -32,9 +32,9 @@ async def create_item(item: Conversation):
     else:
         return "401"
 
+cfg.setUp()
 
 def main():
-    cfg.setUp()
     uvicorn.run("__main__:app", host="0.0.0.0", port=8000, reload=True, workers=2)
     
 
